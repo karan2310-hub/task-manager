@@ -13,7 +13,9 @@ export default function login(){
 
     })
     const data= await res.json;
-    console.log(data);
+    console.log(data);//token hoga terminal mai, isko copy kiya , and auth mai yhi use hua tha
+
+    localStorage.setItem("token",data.token);
    }
    return(
       <div classname="loginpage">

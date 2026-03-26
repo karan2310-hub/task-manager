@@ -19,5 +19,5 @@ export async function POST(req){
     });
 
     return Response.json(board);
-    //fe jo krega const rea=await(api)  to res mai ye board milega use...
+    //fe jo krega const rea=await(api hit link)  to res mai ye board milega use...
 }

@@ -36,7 +36,7 @@ const newTask=await task.create({
     title,
     description,
     board:boardId,
-    asignedto:user.id,
+    assignedto:user.id,
 
 })
 newTask.activity.push({
